@@ -1,0 +1,43 @@
+.myButton {
+  outline: 0;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 10px;
+  font-size: 20px;
+  color: #303030;
+  cursor: pointer;
+  transition: 0.1s;
+  text-transform: uppercase;
+  flex: 1;
+  margin: 10px;
+}
+.myButton:hover {
+  background-color: rgba(30, 30, 80, 0.1);
+}
+
+.myInputText {
+  min-width: 10px;
+  outline: 0;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 10px;
+  font-size: 20px;
+  color: #303030;
+  transition: 0.1s;
+  text-transform: uppercase;
+  flex: 1;
+  margin: 10px;
+}
+.myInputText:hover {
+  background-color: rgba(30, 30, 80, 0.02);
+}
+.myInputText:focus {
+  background-color: rgba(30, 30, 80, 0.05);
+}
+.myInputText:focus::placeholder {
+  color: transparent;
+}
+
+/*# sourceMappingURL=UI.module.css.map */
